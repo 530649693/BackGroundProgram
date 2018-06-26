@@ -34,7 +34,7 @@ public class QueueAnalysis {
 		//基于链节点的线程安全队列  优点： 并发访问不需要同步 不需要知道大小 队列尾部添加元素 头部删除
 		//缺点 ： 收集队列大小信息会很慢
 		ConcurrentLinkedQueue<Integer> conq = new ConcurrentLinkedQueue<>();
-		
+		//add
 		priq.add(1);
 		priq.add(2);
 		priq.add(6);
